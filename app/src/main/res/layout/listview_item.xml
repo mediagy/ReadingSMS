@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_label_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="联系人ID："
+        android:textColor="#CCC"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="联系人ID"
+        app:layout_constraintLeft_toRightOf="@id/tv_label_id"
+        app:layout_constraintTop_toTopOf="@id/tv_label_id" />
+
+    <TextView
+        android:id="@+id/tv_label_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="联系人："
+        android:textColor="#CCC"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_label_id" />
+
+    <TextView
+        android:id="@+id/tv_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="联系人"
+        app:layout_constraintLeft_toRightOf="@id/tv_label_person"
+        app:layout_constraintTop_toTopOf="@id/tv_label_person" />
+
+    <TextView
+        android:id="@+id/tv_label_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日期："
+        android:textColor="#CCC"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_label_person" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日期"
+        app:layout_constraintLeft_toRightOf="@id/tv_label_date"
+        app:layout_constraintTop_toTopOf="@id/tv_label_date" />
+
+    <TextView
+        android:id="@+id/tv_label_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="地址："
+        android:textColor="#CCC"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_label_date" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="联系人地址"
+        app:layout_constraintLeft_toRightOf="@id/tv_label_address"
+        app:layout_constraintTop_toTopOf="@id/tv_label_address" />
+
+    <TextView
+        android:id="@+id/tv_label_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内容："
+        android:textColor="#CCC"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_label_address" />
+
+    <TextView
+        android:id="@+id/tv_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内容"
+        app:layout_constraintLeft_toRightOf="@id/tv_label_body"
+        app:layout_constraintTop_toTopOf="@id/tv_label_body" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
